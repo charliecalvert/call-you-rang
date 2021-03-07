@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://call-you-rang/./source/control.js"],"names":["window","onload"],"mappings":";;;;;AAAA;AACA;AACA;AAEAA,MAAM,CAACC,MAAP,GAAgB,YAAW,CAAE,CAA7B,C","file":"bundle.js","sourcesContent":["/**\n * Created by charlie on 11/5/16.\n */\n\nwindow.onload = function() {};\n"],"sourceRoot":""}
