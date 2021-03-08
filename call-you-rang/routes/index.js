@@ -14,7 +14,7 @@ router.get("/", function (req, res) {
 //Error: First argument to verifyIdToken() must be a Firebase ID token string.
 router.get("/you-rang", function (request, response) {
   debug("TYPE", typeof request.query.token);
-  fetch("http://172.29.149.179:30027/you-rang")
+  fetch("http://micro-qux:30027/you-rang")
     .then((res) => res.json())
     .then((json) => {
       console.log(json);

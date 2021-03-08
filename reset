@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker container stop call-you-rang
+docker container rm call-you-rang
+docker image rm charliecalvert/call-you-rang:latest
+#docker network rm myNetwork

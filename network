@@ -1,0 +1,2 @@
+docker network create myNetwork
+docker network connect myNetwork micro-qux

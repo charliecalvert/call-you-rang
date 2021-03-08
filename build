@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-docker image build -t charliecalvert/call-you=rang .
-docker container run --name call-you=rang -d -p 30025:30025 charliecalvert/call-you=rang
-docker exec -it call-you=rang /bin/bash
+#docker network create myNetwork
+#docker network connect myNetwork micro-qux
+
+docker image build -t charliecalvert/call-you-rang .
+docker container run --name call-you-rang -d -p 30025:30025 charliecalvert/call-you-rang
+docker network connect myNetwork call-you-rang
+docker exec -it call-you-rang /bin/bash
