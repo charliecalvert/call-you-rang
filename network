@@ -1,2 +1,3 @@
 docker network create myNetwork
 docker network connect myNetwork micro-qux
+docker network connect myNetwork call-you-rang
